@@ -53,7 +53,7 @@ const createRandomString = length => {
     await basement_page.click(basement_cookie_button)
 
     await basement_page.waitForSelector(basement_input);
-    await basement_page.type(basement_input, "G-CUP", {delay: 1500});
+    await basement_page.type(basement_input, "Your Project", {delay: 1500});
 
     await basement_page.waitForSelector(basement_card);
     await basement_page.click(basement_card, {delay: 1500})
